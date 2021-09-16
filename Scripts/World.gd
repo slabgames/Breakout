@@ -15,10 +15,6 @@ func set_score(val):
 func get_score()->int:
 	return score
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
 
 func _on_Ball_brick_hit():
 	self.score += 5
